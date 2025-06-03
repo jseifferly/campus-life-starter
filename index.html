@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Campus Life</title>
 </head>
 <body>
 
     <header id="banner">
-        <h1>Student Life</h1>
+        <h1>University of Michigan Student Life</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In maiores dolorem sapiente iusto nobis esse, blanditiis recusandae. Cum natus impedit nulla fuga et recusandae vel, esse iure eveniet nisi suscipit!</p>
     </header>
 
     <nav id="navigation">
         <ul>
-            <li><a href="#">Student Organizations</a></li>
-            <li><a href="#">Upcoming Events</a></li>
-            <li><a href="#">Campus News</a></li>
+            <div id="nav-bar">
+                <li class="nav-bar-link"><a href="#">Student Organizations</a></li>
+                <li class="nav-bar-link"><a href="#">Upcoming Events</a></li>
+                <li class="nav-bar-link"><a href="#">Campus News</a></li>
+            </div>
         </ul>
     </nav>
     
@@ -24,103 +27,117 @@
         <h2>Student Organizations</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolorem nam tempora, dolore odio incidunt, facere aspernatur minus neque vel aliquid sit eveniet repellendus, cupiditate voluptates ad quisquam accusamus quo!</p>
         
-        <article class="organization">
-            <img src="assests/um-tennis.jpg" alt="University of Michigan Recreational Tennis Club Logo">
-            <h3>Recreational Tennis Club</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam repellendus illo exercitationem odit assumenda iure, aperiam quisquam tempora, quasi nobis quo ipsa aliquid, impedit distinctio. Et explicabo a pariatur.</p>
-        </article>
+        <div id="organizations">
+            <article class="organization">
+                <img src="assests/um-tennis.jpg" alt="University of Michigan Recreational Tennis Club Logo">
+                <h3>Recreational Tennis Club</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam repellendus illo exercitationem odit assumenda iure, aperiam quisquam tempora, quasi nobis quo ipsa aliquid, impedit distinctio. Et explicabo a pariatur.</p>
+            </article>
 
-        <article class="organization">
-            <img src="assests/um-powerlift.jfif" alt="University of Michigan Powerlifting Club Logo">
-            <h3>Powerlifting Club</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex voluptate tempora porro ipsum atque sequi quam sit facilis, nobis nam, dolore nihil tenetur similique repellat maxime? Fugiat, enim explicabo.</p>
-        </article>
+            <article class="organization">
+                <img src="assests/um-powerlift.jfif" alt="University of Michigan Powerlifting Club Logo">
+                <h3>Powerlifting Club</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ex voluptate tempora porro ipsum atque sequi quam sit facilis, nobis nam, dolore nihil tenetur similique repellat maxime? Fugiat, enim explicabo.</p>
+            </article>
 
-        <article class="organization">
-            <img src="assests/um-glee.png" alt="University of Michigan Glee Club Logo">
-            <h3>Mens Glee Club</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt a ratione qui. Temporibus, et! Rem vero est tempore fugit magnam, odit sapiente reiciendis tenetur enim saepe corporis ex? Aliquam?</p>
-        </article>
+            <article class="organization">
+                <img src="assests/um-glee.png" alt="University of Michigan Glee Club Logo">
+                <h3>Mens Glee Club</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nesciunt a ratione qui. Temporibus, et! Rem vero est tempore fugit magnam, odit sapiente reiciendis tenetur enim saepe corporis ex? Aliquam?</p>
+            </article>
     </section>
     
     <section id="events">
         <h2>Upcoming Events</h2>
 
-        <article class="event">
-            <h3>Date: 8/28/25</h3>
-            <img src="assests/bowling.jfif" alt="People Bowling">
-            <h3><a href="#">Bowling Night</a></h3>
-            <p>Time: 6pm-9pm</p>
-            <p>Location: Pinball Petes</p>
-        </article>
+        <div id="event-list">
+            <article class="event">
+                <h3>Date: 8/28/25</h3>
+                <img src="assests/bowling.jfif" alt="People Bowling">
+                <h3><a href="#">Bowling Night</a></h3>
+                <p>Time: 6pm-9pm</p>
+                <p>Location: Pinball Petes</p>
+            </article>
 
-        <article class="event">
-            <h3>Date: 8/31/25</h3>
-            <img src="assests/pool.jfif" alt="Image of Pool Party">
-            <h3><a href="#">Pool Party</a></h3>
-            <p>Time: 12am-3pm</p>
-            <p>Location: North Campus Recreational Building</p>
-        </article>
+            <article class="event">
+                <h3>Date: 8/31/25</h3>
+                <img src="assests/pool.jfif" alt="Image of Pool Party">
+                <h3><a href="#">Pool Party</a></h3>
+                <p>Time: 12am-3pm</p>
+                <p>Location: North Campus Recreational Building</p>
+            </article>
 
-        <article class="event">
-            <h3>Date: 9/2/25</h3>
-            <img src="assests/movie.jfif">
-            <h3><a href="#">Movie Night</a></h3>
-            <p>Time: 9pm-12pm</p>
-            <p>Location: Diag</p>
-        </article>
+            <article class="event">
+                <h3>Date: 9/2/25</h3>
+                <img src="assests/movie.jfif">
+                <h3><a href="#">Movie Night</a></h3>
+                <p>Time: 9pm-12pm</p>
+                <p>Location: Diag</p>
+            </article>
+        </div>
 
     </section>
     
     <section id="news">
         <h2>Campus News</h2>
 
-        <article class="news-headline">
-            <img src="assests/um-osu.jfif" alt="Swining UM flag after win">
-            <h3><a href="#">Michigan Takes Down OSU 13-10!</a></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, fugiat! Dolorem sapiente impedit perferendis temporibus non illo accusamus eligendi a fuga fugiat repellat repellendus, tempora, nulla, modi officia. Ea, ullam.</p>
-        </article>
+        <div id="news-page">
+            
+            <aside class="news-headline">
+                <img src="assests/um-osu.jfif" alt="Swining UM flag after win">
+                <h3><a href="#">Michigan Takes Down OSU 13-10!</a></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, fugiat! Dolorem sapiente impedit perferendis temporibus non illo accusamus eligendi a fuga fugiat repellat repellendus, tempora, nulla, modi officia. Ea, ullam.</p>
+            </aside>
+        
+            <div id="news-list">
+                <article class="news-article">
+                    <h3><a href="#">President Ono Transfers</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, odio neque? Debitis eius, ullam ea distinctio quis minus, quam nesciunt soluta neque at eveniet quidem fuga facere nobis odit consectetur?</p>
+                </article>
+            
+                <article class="news-article">
+                    <h3><a href="#">Squirrels Fight Back Against Lack of Feeding</a></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum neque dolorem eligendi unde exercitationem. Itaque totam expedita neque cumque soluta eligendi harum consequatur nesciunt vel accusamus, cum, dolor assumenda sint!</p>
+                </article>
+            
+                <article class="news-article">
+                    <h3><a href="#">Gaza Protests Presist and Encampment Continues</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ex ab sapiente error eligendi ipsam vitae distinctio perspiciatis assumenda animi! Cupiditate sint est voluptates, voluptas repudiandae doloremque error natus voluptatum?</p>
+                </article>
+            
+                <article class="news-article">
+                    <h3><a href="#">New Basketball Coach Dusty May Means Buissness</a></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati numquam est officiis omnis voluptates labore aut modi saepe, suscipit quasi quae ullam minima fugit, sunt quod quaerat quis, dolorum eum?</p>
+                </article>
+            </div>
 
-        <article class="news-article">
-            <h3><a href="#">President Ono Transfers</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, odio neque? Debitis eius, ullam ea distinctio quis minus, quam nesciunt soluta neque at eveniet quidem fuga facere nobis odit consectetur?</p>
-        </article>
-        <article class="news-article">
-            <h3><a href="#">Squirrels Fight Back Against Lack of Feeding</a></h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum neque dolorem eligendi unde exercitationem. Itaque totam expedita neque cumque soluta eligendi harum consequatur nesciunt vel accusamus, cum, dolor assumenda sint!</p>
-        </article>
-        <article class="news-article">
-            <h3><a href="#">Gaza Protests Presist and Encampment Continues</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ex ab sapiente error eligendi ipsam vitae distinctio perspiciatis assumenda animi! Cupiditate sint est voluptates, voluptas repudiandae doloremque error natus voluptatum?</p>
-        </article>
-        <article class="news-article">
-            <h3><a href="#">New Basketball Coach Dusty May Means Buissness</a></h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati numquam est officiis omnis voluptates labore aut modi saepe, suscipit quasi quae ullam minima fugit, sunt quod quaerat quis, dolorum eum?</p>
-        </article>
+        </div>
 
     </section>
 
     <section id="dining-halls">
         <h2>Dining Halls</h2>
 
-        <article class="dining">
-            <h3>South Quad</h3>
-            <img src="assests/south-q.jfif" alt="Image of South Quad">
-            <p>Menu: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic neque nulla vel ex aperiam at esse cupiditate quia provident. Iste reiciendis eius sint. Sequi eum necessitatibus animi nulla molestiae quia?</p>
-        </article>
+        <div id="dining-list">  
+            <article class="dining">
+                <h3>South Quad</h3>
+                <img src="assests/south-q.jfif" alt="Image of South Quad">
+                <p>Menu: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic neque nulla vel ex aperiam at esse cupiditate quia provident. Iste reiciendis eius sint. Sequi eum necessitatibus animi nulla molestiae quia?</p>
+            </article>
 
-        <article class="dining">
-            <h3>Mojo</h3>
-            <img src="assests/mojo.jfif" alt="Image of Mosher Jordan Hall">
-            <p>Menu: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nesciunt ipsam enim tempora placeat possimus et perferendis, reiciendis dignissimos minus eaque non quas vitae. Cupiditate, sed odio. Nulla, quae praesentium.</p>
-        </article>
+            <article class="dining">
+                <h3>Mojo</h3>
+                <img src="assests/mojo.jfif" alt="Image of Mosher Jordan Hall">
+                <p>Menu: Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nesciunt ipsam enim tempora placeat possimus et perferendis, reiciendis dignissimos minus eaque non quas vitae. Cupiditate, sed odio. Nulla, quae praesentium.</p>
+            </article>
 
-        <article class="dining">
-            <h3>Bursley</h3>
-            <img src="assests/bursley.jfif" alt="Image of Bursley Hall">
-            <p>Menu: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae aliquid eos quis quibusdam debitis officia aliquam cupiditate temporibus eligendi excepturi dolores laudantium quo ipsam dolore, necessitatibus, pariatur sed. Molestiae, delectus.</p>
-        </article>
-        
+            <article class="dining">
+                <h3>Bursley</h3>
+                <img src="assests/bursley.jfif" alt="Image of Bursley Hall">
+                <p>Menu: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae aliquid eos quis quibusdam debitis officia aliquam cupiditate temporibus eligendi excepturi dolores laudantium quo ipsam dolore, necessitatibus, pariatur sed. Molestiae, delectus.</p>
+            </article>
+        </div>  
+
     </section>
 
 </body>

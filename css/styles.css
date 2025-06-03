@@ -1,0 +1,135 @@
+/*Element Selectors*/
+body{
+    background: radial-gradient(circle at center, #0038E0, lightblue ) ;
+}
+
+header{
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    background-image: url(ross.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #FBFF00;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #FBFF00;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #FBFF00;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FBFF00;
+}
+
+a{
+    color: blue;
+}
+
+
+/*Class Selectors*/
+.organization {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: #0038E0;
+}
+
+.news-article {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.dining {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.nav-bar-link{
+    font-size: 17px;
+    color: black;
+    background-color: darkgray;
+    padding: 7px;
+}
+
+.nav-bar-link:hover{
+    background-color: lightgray;
+}
+
+
+/*Id Selectors*/
+#navigation{
+    border: black 4px outset;
+    font-size: 13px;
+    margin: 15px;
+    padding: 0px;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+#organizations{
+    display: flex;
+    justify-content: space-around;
+}
+
+#event-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+#news-page{
+    display: flex;
+}
+
+
+#news-list{
+    display: flex;
+    flex-direction: column;
+}
+
+#dining-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+#student-organizations{
+    margin: 15px;
+    padding: 10px;
+}
+
+#events{
+    margin: 15px;
+    padding: 10px;
+}
+
+#news{
+    margin: 15px;
+    padding: 10px;
+}
+
+#dining-halls{
+    margin: 15px;
+    padding: 10px;
+}
